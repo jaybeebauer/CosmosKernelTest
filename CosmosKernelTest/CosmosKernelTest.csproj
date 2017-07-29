@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.Net.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.5</TargetFramework>
+    <ProjectGuid>{48adb253-da7a-462c-9494-0dc25e5db5a2}</ProjectGuid>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CosmosKernelTestBoot.Cosmos" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Cosmos.Debug.Kernel" Version="1.0.*" />
+    <PackageReference Include="Cosmos.System" Version="1.0.*" />
+  </ItemGroup>
+
+</Project>
